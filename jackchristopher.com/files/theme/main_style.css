@@ -1,0 +1,430 @@
+/*  
+Theme Name: Basic Concept
+Theme URI: http://www.wpdesigner.com/2007/02/15/basic-concept-wordpress-theme/
+Description: Basic Concept Wordpress theme created by Small Potato.
+Version: 1.0
+Author: Small Potato
+Author URI: http://www.wpdesigner.com/
+
+*/
+
+body, h1, h2, h3, h4, h5, h6, address, blockquote, dd, dl, hr, p, form{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: Arial, Helvetica, Georgia, Sans-Serif;
+	font-size: 14px;
+	text-align: center;
+	vertical-align: top;
+	background: #fff;
+	color: #333;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: Georgia, Sans-Serif;
+	font-size: 18px;
+	font-weight: normal;
+}
+
+a{
+	text-decoration: underline;
+	color: #000;
+}
+
+a:hover{
+	text-decoration: none;
+}
+#active a:hover {
+	text-decoration:underline;
+}
+#active a:visited {
+	text-decoration:underline;
+}
+
+a img{
+	border: 0;
+}
+
+
+address, dl, p{
+	padding: 15px 0 0;
+}
+
+blockquote{
+	margin: 15px 0 0;
+	background: #efefef;
+}
+
+blockquote p{ padding: 15px; }
+
+blockquote blockquote{
+	margin: 15px;
+	background: #fff;
+}
+
+code{
+	background: #f9f9f9;
+}
+
+dt{ font-weight: bold; }
+
+dd{ padding: 0 0 0 15px; }
+
+hr{
+	clear: both;
+	margin: 15px 15px 5px 15px;
+	border: 0;
+	height: 1px;
+	text-align: left;
+	background: #ccc;
+	color: #ccc;
+}
+
+
+/* Modified image styles of WordPress Default Theme, Kubrick */
+
+.entry img{
+	border: 1px solid #ccc;
+	padding: 4px;
+}
+
+img.wp-smiley{
+	border: 0;
+	padding: 0;
+	background-color: transparent;
+	background-image: none;
+}
+
+img.centered {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.alignright {
+	margin: 0 0 2px 7px;
+	padding: 4px;
+	display: inline;
+}
+
+img.alignleft {
+	margin: 0 7px 2px 0;
+	padding: 4px;
+	display: inline;
+}
+
+.alignright {
+	float: right;
+}
+
+.alignleft {
+	float: left
+}
+
+/* end image styles */
+
+input, textarea{
+	font-family: Arial, Helvetica, Georgia, Sans-Serif;
+	font-size: 12px;
+	padding: 2px;
+}
+
+input#s, input#author, input#email, input#url, textarea#comment{
+	padding: 3px;
+}
+
+input#author, input#email, input#url{
+	margin: 0 5px 0 0;
+}
+
+pre{
+	width: 90%;
+}
+
+small{
+	font-size: 12px;
+}
+
+#header{
+	clear: both;
+	float: left;
+	width: 100%;
+	padding: 30px 0 20px 0;
+	text-align: left;
+	background: #1f1f1f;
+}
+
+#header h1{
+	margin: 0 auto;
+	width: 758px;
+	font-size: 48px;
+	color: #fff;
+}
+
+#header h1 a{
+	text-decoration: none;
+	color: #fff;
+}
+
+#header h1 a:hover{
+	text-decoration: underline;
+}
+
+.description{
+	margin: 0 auto;
+	width: 758px;
+	line-height: 24px;
+	color: #6d6d6d;
+}
+
+.description p{
+	padding: 6px 0 0 20px;
+}
+
+#top-menu{
+	clear: both;
+	float: left;
+	width: 100%;
+	font-family: Georgia, Sans-Serif;
+	text-align: left;
+	border-top: 1px solid #343434;
+	background: #343434 url(bg_topmenu.gif) repeat-x;
+}
+
+#top-menu a{
+	text-decoration: none;
+	color: #b3b2b2;
+}
+
+#top-menu a:hover{
+	text-decoration: underline;
+}
+
+#top-menu ul{
+	margin: 0 auto;
+	width: 758px;
+	padding: 10px 0;
+	text-align: left;
+}
+
+#top-menu ul li{
+	display: inline;
+	padding: 0 20px 0 0;
+	font-size: 18px;
+}
+
+#container{
+	clear: both;
+	float: left;
+	width: 100%;
+	text-align: left;
+	border-top: 1px solid #fff;
+	background: #fff url(bg_container.gif) repeat-x;
+}
+
+.page{
+	margin: 20px auto 0;
+	width: 758px;
+	text-align: left;
+}
+
+/* .main-narrow{
+	float: left;
+	width: 541px;
+	background: url(dotted_vertical.gif) repeat-y top right;
+} */
+
+.post{
+	padding: 20px 21px 20px 0;
+	line-height: 24px;
+	min-height:400px;
+  	height:auto !important;
+  	height:400px;
+}
+
+.post h2{
+	font-size: 24px;
+	padding: 15px 0;
+}
+
+.post p{
+	padding: 0;
+}
+
+.entry h1, .entry h2, .entry h3, .entry h4, .entry h5, .entry h6{
+	border: 0;
+	margin: 0;
+	padding: 15px 0 0;
+	font-style: normal;
+	text-transform: none;
+	background-color: transparent;
+	background-image: none;
+}
+
+.entry h1{
+	font-size: 48px;
+	font-weight: normal;
+	line-height: 48px;
+}
+
+.entry h2{
+	line-height: 30px;
+}
+
+.entry h3{
+	font-size: 18px;
+}
+
+.entry  h4{ font-size: 14px; }
+
+.entry h5{ font-size: 12px; }
+
+.entry h6{ font-size: 11px; }
+
+.postinfo{}
+
+.browse{
+	margin: 0;
+	padding: 20px 21px 20px 0;
+}
+
+.sidebar{
+	float: left;
+	width: 202px;
+	margin: 0 0 0 15px;
+	display: inline;
+}
+
+.sidebar ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.sidebar ul li{
+	margin: 20px 0 0;
+	padding: 18px 20px 20px;
+	border: 1px solid #ccc;
+	background: #fbfbfb;
+}
+
+.sidebar ul li#search{
+	padding: 0;
+	border: 0;
+	background-color: transparent;
+}
+
+.sidebar ul li#search input{
+	margin: 0 0 5px;
+}
+
+.sidebar ul li h2{
+	padding: 0 0 10px;
+	background: url(dotted_horizontal.gif) repeat-x left bottom;
+	color: #666;
+}
+
+.sidebar ul ul{
+	padding: 3px 0 0;
+}
+
+.sidebar ul ul li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height: 30px;
+	background-color: transparent;
+}
+
+.sidebar ul ul ul{
+	padding: 0;
+}
+
+.sidebar ul ul ul li{
+	padding: 0 0 0 10px;
+}
+
+
+/* comments template */
+
+.comments-template{
+	margin: 15px 0 0;
+	border-top: 1px solid #ccc;
+	padding: 15px 0 0;
+}
+
+.comments-template ol{
+	margin: 0;
+	padding: 0 0 20px;
+	list-style: none;
+}
+
+.comments-template ol li{
+	margin: 15px 0 0;
+	line-height: 24px;
+	padding: 0 0 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.commentmetadata{
+	font-size: 12px;
+}
+
+.comments-template p.nocomments{
+	padding: 0;
+}
+
+/* end comments template */
+
+/* wp-calendar */
+
+table#wp-calendar{
+	width: 100%;
+	font-family: Arial, Helvetica, Georgia, Sans-Serif;
+	text-transform: none;
+	line-height: 24px;
+}
+
+table#wp-calendar caption{
+	padding: 10px 15px;
+}
+
+table#wp-calendar th{
+	padding: 2px;
+	text-align: right;
+	vertical-align: top;
+	background: #eee;
+}
+
+table#wp-calendar td{
+	padding: 2px;
+	text-align: right;
+}
+
+table#wp-calendar tfoot td{
+	text-align: center;
+}
+
+/* end calendar */
+
+
+#footer-wrap{
+	float: left;
+	width: 100%;
+	background: #343434;
+	color: #ccc;
+}
+
+#footer-wrap a{
+	color: #ccc;
+}
+
+#footer{
+	margin: 0 auto;
+	width: 758px;
+	padding: 0 0 20px 0;
+	line-height: 24px;
+	text-align: left;
+}
